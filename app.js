@@ -68,9 +68,8 @@ function sumArray(numbers) {
   return sumTotalArray;
 }
 
-var testArray = [2,3,4];
-
 // Here is the test for sumArray(); uncomment it to run it
+var testArray = [2,3,4];
 testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle.
@@ -82,7 +81,14 @@ Write a function called multiplyArray() that takes an array of numbers as its ar
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
-
+function multiplyArray(numbers){
+  var productTotal = numbers[0];
+  for(var i = 1; i < numbers.length; i++){
+    productTotal *= numbers[i];
+  }
+  var productTotalArray = [productTotal, 'The numbers ' + numbers + ' have a product of ' + productTotal + '.'];
+  return productTotalArray;
+}
 // Here is the test for multiplyArray(); uncomment it to run it
 //testMultiplyArray(testArray);
 
