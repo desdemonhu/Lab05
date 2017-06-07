@@ -47,7 +47,7 @@ function sumAndMultiply(a,b,c){
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-//testSumAndMultiply(4,7,5);
+testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle.
 
