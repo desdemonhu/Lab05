@@ -6,9 +6,13 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
+function sum(a,b){
+  var sumArray = [a + b,'The sum of ' + a + ' and ' + b + ' is ' + (a + b) + '.'];
+  return sumArray;
+}
 
 // Here is the test for sum(); uncomment it to run it
-testSum(4, 7);
+//testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle.
 
@@ -21,7 +25,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 
 // Here is the test for multiply(); uncomment it to run it
-testMultiply(4,7);
+//testMultiply(4,7);
 
 // Once you get the test passing, do an a-c-p cycle.
 
@@ -35,7 +39,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
-testSumAndMultiply(4,7,5);
+//testSumAndMultiply(4,7,5);
 
 // Once you get the test passing, do an a-c-p cycle.
 
@@ -46,10 +50,10 @@ Write a function called sumArray() that takes in an array of numbers as its argu
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-testArray = [2,3,4];
+//testArray = [2,3,4];
 
 // Here is the test for sumArray(); uncomment it to run it
-testSumArray(testArray);
+//testSumArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle.
 
@@ -62,7 +66,7 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 
 // Here is the test for multiplyArray(); uncomment it to run it
-testMultiplyArray(testArray);
+//testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle.
 
