@@ -59,8 +59,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumArray(numbers) {
-  var sumTotal;
-  for(i = 0; i < numbers.length; i++){
+  var sumTotal = 0;
+  for(var i = 0; i < numbers.length; i++){
     sumTotal += numbers[i];
   }
   var sumTotalArray = [sumTotal, numbers + ' was passed in as an array of numbers, and ' + sumTotal + ' is their sum.'];
