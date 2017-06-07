@@ -90,7 +90,7 @@ function multiplyArray(numbers){
   return productTotalArray;
 }
 // Here is the test for multiplyArray(); uncomment it to run it
-//testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle.
 
